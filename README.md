@@ -4,9 +4,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;}
+@font-face {
+    font-family: 'jeansregular';
+    src: url('jeans.woff2') format('woff2'),
+         url('jeans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {font-family: "jeansregular", jeansregular, jeansregular;}
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Playfair Display";
+    font-family: "jeansregular";
     letter-spacing: 3px;
 }
 </style>
